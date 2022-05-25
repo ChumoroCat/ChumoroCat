@@ -25,13 +25,6 @@ nav {
     background-size: auto;
     width: 100%;
 
-    & > .heading {
-        font-size: 3rem;
-        margin-top: 5rem;
-        text-align: center;
-        color: white;
-    }
-
     &-container {
         display: flex;
         justify-content: space-around;
@@ -51,9 +44,15 @@ nav {
 }
 
 .about-me {
-    background-color: #f15bb5;
-    height: 50vh;
+    background-color: #f8a07b;
     width: 100%;
+    padding: 4rem 1rem;
+}
+
+.me-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
