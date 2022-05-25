@@ -59,8 +59,8 @@ body {
 }
 
 nav {
-  background-color: #121212;
-  height: 8vh;
+  background-color: #5C5C5C;
+  height: 7vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,39 +71,64 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
 }
 
 .swimming {
-  background: #00feff;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(18%, #00feff), to(#1152d1));
-  background: linear-gradient(180deg, #00feff 18%, #1152d1 100%);
+  background-color: #00bbf9;
   height: 80vh;
   width: 100%;
 }
 
 .portfolio {
-  background: #1152d1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1152d1), color-stop(15%, #d18111));
-  background: linear-gradient(180deg, #1152d1 0%, #d18111 15%);
+  background-color: #00f5d4;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+}
+
+.portfolio > .heading {
+  font-size: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.games {
+  background-color: #fee440;
   height: 50vh;
   width: 100%;
 }
 
 .about-me {
-  background-color: #FFE083;
+  background-color: #f15bb5;
   height: 50vh;
   width: 100%;
 }
 
 footer {
-  background-color: #121212;
+  background-color: #9b5de5;
   height: 30vh;
   width: 100%;
 }
 
 .logo {
-  height: 5rem;
-  margin-left: 2rem;
+  font-size: 2.2rem;
+  margin-left: 3rem;
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  text-transform: uppercase;
 }
 
 .external-links {
@@ -124,5 +149,56 @@ footer {
 .external-links > .github {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.card {
+  background-color: #5C5C5C;
+  width: 20%;
+  margin: 8rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1rem solid #5C5C5C;
+  border-radius: 3%;
+  overflow: hidden;
+}
+
+.card > .website-image {
+  height: 20rem;
+  background-size: auto;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 100%;
+     object-position: 0% 100%;
+}
+
+.card > .paragraph {
+  font-size: 1.8rem;
+  color: white;
+  font-size: 1.4rem;
+  background-color: #5C5C5C;
+  text-align: center;
+  width: 100%;
+}
+
+.card > .skills {
+  height: 10rem;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
