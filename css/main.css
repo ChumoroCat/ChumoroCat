@@ -1,0 +1,128 @@
+:root {
+  --color-primary: #2f64eb;
+  --color-primary-light: #3366ff;
+  --color-primary-dark: #265dba;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+  --line: 1px solid var(--color-grey-light-2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-grey-dark-2);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 68.75em) {
+  body {
+    padding: 0;
+  }
+}
+
+nav {
+  background-color: #121212;
+  height: 8vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swimming {
+  background: #00feff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(18%, #00feff), to(#1152d1));
+  background: linear-gradient(180deg, #00feff 18%, #1152d1 100%);
+  height: 80vh;
+  width: 100%;
+}
+
+.portfolio {
+  background: #1152d1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1152d1), color-stop(15%, #d18111));
+  background: linear-gradient(180deg, #1152d1 0%, #d18111 15%);
+  height: 50vh;
+  width: 100%;
+}
+
+.about-me {
+  background-color: #FFE083;
+  height: 50vh;
+  width: 100%;
+}
+
+footer {
+  background-color: #121212;
+  height: 30vh;
+  width: 100%;
+}
+
+.logo {
+  height: 5rem;
+  margin-left: 2rem;
+}
+
+.external-links {
+  font-size: 1.8rem;
+  margin-right: 2rem;
+}
+
+.external-links :link {
+  color: white;
+  text-decoration: none;
+}
+
+.external-links :visited {
+  color: white;
+  text-decoration: none;
+}
+
+.external-links > .github {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
