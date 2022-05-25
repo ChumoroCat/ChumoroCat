@@ -41,8 +41,13 @@ nav {
 
 .games {
     background-color: #fee440;
-    height: 50vh;
     width: 100%;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-me {
