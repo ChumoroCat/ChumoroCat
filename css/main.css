@@ -352,7 +352,7 @@ footer {
   width: 16rem;
   text-align: center;
   color: #424242;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
@@ -414,9 +414,10 @@ footer {
 
 .pill {
   border-radius: 15%;
-  padding: .55rem .4rem;
+  padding: .75rem .6rem;
   margin: .3rem;
   line-height: 1rem;
+  font-size: 1.3rem;
   color: white;
 }
 
