@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="700mm"
+   height="144mm"
+   viewBox="0 0 699.99998 144"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="waves.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.71446409"
+     inkscape:cx="2035.7916"
+     inkscape:cy="276.43097"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="false"
+     height="95mm" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#d98621;stroke:#000000;stroke-width:0.678577px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -4.7706368,151.56554 C 30.66593,81.653939 71.531752,151.18572 103.68207,141.77573 c 24.08618,-7.04971 29.5902,-49.838986 69.93682,-49.838986 11.23094,0 26.39825,19.500136 31.4209,10.679776 19.00514,-33.375342 17.90892,-48.909728 63.85534,-54.288901 44.74521,-5.238536 50.71474,79.780711 57.77387,75.648471 32.4744,-19.00966 26.68002,-71.571763 93.24907,-56.95885 3.8455,0.844144 31.63108,43.24 32.43448,41.82915 69.41763,-121.905813 49.74349,-32.004987 112.507,-4.4499 10.27446,4.5108 5.31947,-23.509842 16.21722,-26.699464 42.2114,-12.354717 120.68061,39.387404 128.72429,67.638634"
+       id="path2468" />
+  </g>
+</svg>

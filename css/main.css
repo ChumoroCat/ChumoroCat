@@ -81,8 +81,10 @@ nav {
 
 .portfolio {
   background-color: #00f5d4;
+  background-image: url("../img/waves-cyan.svg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-position: center bottom;
   width: 100%;
 }
 
@@ -99,6 +101,10 @@ nav {
 
 .games {
   background-color: #fee440;
+  background-image: url("../img/waves-yellow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
   width: 100%;
   padding: 3rem;
   display: -webkit-box;
@@ -118,6 +124,10 @@ nav {
 
 .about-me {
   background-color: #f8a07b;
+  background-image: url("../img/waves-orange.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
   width: 100%;
   padding: 4rem 1rem;
 }
