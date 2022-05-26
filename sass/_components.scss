@@ -48,6 +48,7 @@
 
     & > .website-image {
         height: 20rem;
+        width: auto;
         background-size: auto;
         background-repeat: no-repeat;
         max-width:100%;
@@ -67,9 +68,9 @@
     }
 
     & > .skills {
-        height: 10rem;
+        height: 5rem;
         background-color: #424242;
-        color: white;
+        // color: white;
         text-align: center;
 
         width: 100%;
@@ -154,32 +155,91 @@
 
 
 .profile-pic {
-    width: 14rem;
+    width: 14.3rem;
     height: 15rem;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
 
-
-.skills-heading {
-    font-size: 1.5rem;
-    margin-top: 2rem;
+.skills {
+    width: 16rem;
     text-align: center;
-    text-transform: uppercase;
-    color: #424242;
+    padding: 1.5rem;
 }
 
-.skills {
+.skills-card {
+
+    background-color: #CCCCCC;
+    margin: 4rem 2rem;
+    
+    width: 25rem;
+    height: 20rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 16rem;
-    text-align: center;
+
+    border: 1rem solid #5C5C5C;
+    border-radius: 3%;
+    padding: 1.5rem 0.3rem;
+    overflow: hidden;
+
+
+    &-heading {
+        font-size: 1.5rem;
+        margin-bottom: 1.8rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #5C5C5C;
+    }
 }
 
 
 //////////////////////////////////////////
+// Pills
+
+.pill-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pill {
+    border-radius: 15%;
+    padding: .55rem .4rem;
+    margin: .3rem;
+    line-height: 1rem;
+    color: white;
+}
+
+.red {
+    background-color: #d92d00;
+}
+
+.blue {
+    background-color: #006bb4;
+}
+
+.yellow {
+    background-color: #ddb700;
+}
+
+.green {
+    background-color: #00DB49;
+}
+
+.orange {
+    background-color: #D98621;
+}
+
+.cyan {
+    background-color: #00DBB7;
+}
+
+
+//////////////////////////////////////////
+// Footer
 
 
 
