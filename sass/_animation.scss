@@ -16,12 +16,24 @@
     z-index:10;
 }
 
+
 @keyframes swim {
     0% {
       transform: translateX(0px);
     }
     100% {
       transform: translateX(13000%);
+    }
+}
+
+@keyframes expand {
+    0% {
+      transform: scale(1.0);
+    }
+    100% {
+      transform: scale(1.15);
+      padding: .25rem;
+      border: 3px dashed hotpink;
     }
 }
 
@@ -49,3 +61,14 @@
         animation-delay: 13s;
     }
 }
+
+@for $i from 1 through 3 {
+    .nav-link:nth-child(#{$i}) {    
+
+        // animation-name: expand;
+        // animation-duration: 3s;
+        animation: expand 2s ease-out infinite;
+        display: inline-block;
+    }
+}
+

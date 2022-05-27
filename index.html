@@ -8,6 +8,7 @@
         <meta name="author" content="Lewis Lim">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
@@ -22,13 +23,15 @@
             <!-- <img src="" alt="" class="cat-and-me"> -->
             <div>Image</div>
             <div class="external-links">
-                <a href="" class="resume">Resume</a>
-                <a href="" class="github">Github</a>
-                <a href="" class="linkedin">Linkedin</a>
+                <a href="" class="resume nav-link">Resume</a>
+                <a href="" class="github nav-link">Github</a>
+                <a href="" class="linkedin nav-link">Linkedin</a>
             </div>
         </nav>
         
         <section class="swimming">
+            <img src="img/lewis.gif" alt="Lewis and Cat" class="lewis-image">
+
             <img src="img/fish.svg" alt="Small Fish" class="fish-fast fish">
             <img src="img/fish.svg" alt="Small Fish" class="fish-fast fish">
             <img src="img/fish.svg" alt="Small Fish" class="fish-fast fish">
@@ -167,4 +170,12 @@
         </footer>
 
     </body>
+    <script>
+        $(".swimming").mousemove(function(event) {
+            $(".lewis-image").css({
+                left: event.pageX,
+                top: event.pageY
+            });
+        });
+    </script>
 </html>
