@@ -1,0 +1,51 @@
+.fish-fast {
+    position: absolute;
+    left:-10rem;
+    z-index:10;
+}
+
+.fish-normal {
+    position: absolute;
+    left:-10rem;
+    z-index:10;
+}
+
+.fish-slow {
+    position: absolute;
+    left:-10rem;
+    z-index:10;
+}
+
+@keyframes swim {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(13000%);
+    }
+}
+
+@for $i from 1 through 16 {
+    .fish:nth-child(#{$i}) {    
+        
+    width: (random(100)/100)*5 + 1 + rem;
+    top: percentage(random(50)/100 + 0.15); 
+    
+    animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
+    animation-name: swim;
+    animation-duration: (random(1000)/100) + 20 + s;
+
+    }
+}
+
+@for $i from 7 through 11 {
+    .fish-normal:nth-child(#{$i}) {    
+        animation-delay: 7s;
+    }
+}
+
+@for $i from 12 through 16 {
+    .fish-slow:nth-child(#{$i}) {    
+        animation-delay: 13s;
+    }
+}
