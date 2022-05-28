@@ -1,7 +1,13 @@
 nav {
     background-color: #5C5C5C;
+    background-image: url('../img/nav-faces.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
     height: 7vh;
     width: 100%;
+    max-width: 100%;
+
 
     display: flex;
     justify-content: space-between;

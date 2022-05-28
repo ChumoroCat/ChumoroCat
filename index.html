@@ -18,10 +18,9 @@
         <title>Chumoro Cat &mdash; Portfolio</title>
     </head>
     <body>
+        <div class="wrapper">
         <nav>
             <h1 class="logo">Chumoro Cat</h1>
-            <!-- <img src="" alt="" class="cat-and-me"> -->
-            <div>Image</div>
             <div class="external-links">
                 <a href="" class="resume nav-link">Resume</a>
                 <a href="" class="github nav-link">Github</a>
@@ -79,7 +78,7 @@
         <section class="games">
             <h1 class="heading heading-black">Unity Games Portfolio</h1>
             <div class="game-container">
-                <iframe src="https://chumorocat.com/Finding_Kitty/index" frameborder="0" class="finding-kitty hidden"></iframe>
+                <iframe src="" frameborder="0" class="finding-kitty hidden"></iframe>
                 <article class="instructions hidden">Use the WASD keys to walk, mouse to turn around.</article>
 
                 <div class="game-card">
@@ -168,7 +167,7 @@
         <footer>
             footer
         </footer>
-
+    </div>
     </body>
     <script>
         $(".swimming").mousemove(function(event) {
@@ -177,5 +176,8 @@
                 top: event.pageY
             });
         });
+
+        window.frames[0].stop()
     </script>
+
 </html>

@@ -59,5 +59,10 @@ body{
 
     display: flex;
     flex-direction: column;
+}
+
+div.wrapper {
     overflow-x: hidden;
+    position: relative;
+    background-color: #00bbf9;
 }

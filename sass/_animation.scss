@@ -28,20 +28,26 @@
 
 @keyframes expand {
     0% {
+      border: .3px dashed hotpink;
+      border-radius: 15%;
       transform: scale(1.0);
     }
+
     100% {
       transform: scale(1.15);
       padding: .25rem;
+      border-radius: 15%;
       border: 3px dashed hotpink;
     }
 }
 
+
 @for $i from 1 through 16 {
     .fish:nth-child(#{$i}) {    
         
+    position: absolute;
     width: (random(100)/100)*5 + 1 + rem;
-    top: percentage(random(50)/100 + 0.15); 
+    top: (random(6000)/100 + 13) + vh; 
     
     animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
     animation-name: swim;
