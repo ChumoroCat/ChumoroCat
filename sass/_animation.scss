@@ -1,18 +1,6 @@
-.fish-fast {
+.fish {
     position: absolute;
-    left:-10rem;
-    z-index:10;
-}
-
-.fish-normal {
-    position: absolute;
-    left:-10rem;
-    z-index:10;
-}
-
-.fish-slow {
-    position: absolute;
-    left:-10rem;
+    left:-19rem;
     z-index:10;
 }
 
@@ -22,7 +10,7 @@
       transform: translateX(0px);
     }
     100% {
-      transform: translateX(13000%);
+      transform: translateX(11000%);
     }
 }
 
@@ -42,11 +30,11 @@
 }
 
 
-@for $i from 1 through 16 {
+@for $i from 1 through 20 {
     .fish:nth-child(#{$i}) {    
         
     position: absolute;
-    width: (random(100)/100)*5 + 1 + rem;
+    height: (random(100)/100)*6 + 1 + rem;
     top: (random(6000)/100 + 13) + vh; 
     
     animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
@@ -56,25 +44,22 @@
     }
 }
 
-@for $i from 7 through 11 {
-    .fish-normal:nth-child(#{$i}) {    
-        animation-delay: 7s;
+@for $i from 1 through 8 {
+    .fish:nth-child(#{$i}) {    
+        animation-delay: 0.5s;
     }
 }
 
-@for $i from 12 through 16 {
-    .fish-slow:nth-child(#{$i}) {    
+@for $i from 9 through 14 {
+    .fish:nth-child(#{$i}) {    
+        animation-delay: 8s;
+    }
+}
+
+@for $i from 15 through 20 {
+    .fish:nth-child(#{$i}) {    
         animation-delay: 13s;
     }
 }
 
-@for $i from 1 through 3 {
-    .nav-link:nth-child(#{$i}) {    
-
-        // animation-name: expand;
-        // animation-duration: 3s;
-        animation: expand 2s ease-out infinite;
-        display: inline-block;
-    }
-}
 
