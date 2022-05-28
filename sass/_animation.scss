@@ -62,4 +62,12 @@
     }
 }
 
+@for $i from 1 through 3 {
+    .nav-link:nth-child(#{$i}) {    
 
+        // animation-name: expand;
+        // animation-duration: 3s;
+        animation: expand 2s ease-out infinite;
+        display: inline-block;
+    }
+}
