@@ -73,19 +73,7 @@
 .fish:nth-child(1) {
   position: absolute;
   width: 5.7rem;
-  top: 47.29vh;
-  -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
-          animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
-  -webkit-animation-name: swim;
-          animation-name: swim;
-  -webkit-animation-duration: 26.84s;
-          animation-duration: 26.84s;
-}
-
-.fish:nth-child(2) {
-  position: absolute;
-  width: 5.6rem;
-  top: 24.93vh;
+  top: 27.56vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
@@ -94,172 +82,184 @@
           animation-duration: 28.58s;
 }
 
-.fish:nth-child(3) {
+.fish:nth-child(2) {
   position: absolute;
-  width: 2.05rem;
-  top: 60.38vh;
+  width: 3.6rem;
+  top: 49.99vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 26.85s;
-          animation-duration: 26.85s;
+  -webkit-animation-duration: 22.47s;
+          animation-duration: 22.47s;
+}
+
+.fish:nth-child(3) {
+  position: absolute;
+  width: 1.55rem;
+  top: 60.74vh;
+  -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
+          animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
+  -webkit-animation-name: swim;
+          animation-name: swim;
+  -webkit-animation-duration: 21.07s;
+          animation-duration: 21.07s;
 }
 
 .fish:nth-child(4) {
   position: absolute;
-  width: 3.85rem;
-  top: 58.82vh;
+  width: 1.5rem;
+  top: 60.48vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 22.53s;
-          animation-duration: 22.53s;
+  -webkit-animation-duration: 27.2s;
+          animation-duration: 27.2s;
 }
 
 .fish:nth-child(5) {
   position: absolute;
-  width: 3rem;
-  top: 60.43vh;
+  width: 2.35rem;
+  top: 52.82vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 20.76s;
-          animation-duration: 20.76s;
+  -webkit-animation-duration: 29.39s;
+          animation-duration: 29.39s;
 }
 
 .fish:nth-child(6) {
   position: absolute;
-  width: 2.7rem;
-  top: 43.02vh;
+  width: 2.05rem;
+  top: 31.14vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 28.69s;
-          animation-duration: 28.69s;
+  -webkit-animation-duration: 29.55s;
+          animation-duration: 29.55s;
 }
 
 .fish:nth-child(7) {
   position: absolute;
-  width: 3.5rem;
-  top: 14.94vh;
+  width: 5.3rem;
+  top: 55vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 29.63s;
-          animation-duration: 29.63s;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
 }
 
 .fish:nth-child(8) {
   position: absolute;
-  width: 5.3rem;
-  top: 38.85vh;
+  width: 2.5rem;
+  top: 40.35vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 27.62s;
-          animation-duration: 27.62s;
+  -webkit-animation-duration: 22.17s;
+          animation-duration: 22.17s;
 }
 
 .fish:nth-child(9) {
   position: absolute;
-  width: 5.8rem;
-  top: 56.73vh;
+  width: 4.05rem;
+  top: 21.16vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 21.43s;
-          animation-duration: 21.43s;
+  -webkit-animation-duration: 29.59s;
+          animation-duration: 29.59s;
 }
 
 .fish:nth-child(10) {
   position: absolute;
-  width: 1.1rem;
-  top: 22.15vh;
+  width: 1.45rem;
+  top: 64.89vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 24.72s;
-          animation-duration: 24.72s;
+  -webkit-animation-duration: 29.33s;
+          animation-duration: 29.33s;
 }
 
 .fish:nth-child(11) {
   position: absolute;
-  width: 1.15rem;
-  top: 50.59vh;
+  width: 4.75rem;
+  top: 66.28vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 25.9s;
-          animation-duration: 25.9s;
+  -webkit-animation-duration: 28.16s;
+          animation-duration: 28.16s;
 }
 
 .fish:nth-child(12) {
   position: absolute;
-  width: 3.5rem;
-  top: 14.21vh;
+  width: 1.9rem;
+  top: 49.39vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 22.49s;
-          animation-duration: 22.49s;
+  -webkit-animation-duration: 29.58s;
+          animation-duration: 29.58s;
 }
 
 .fish:nth-child(13) {
   position: absolute;
-  width: 3.4rem;
-  top: 49.82vh;
+  width: 1.4rem;
+  top: 25.99vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 23.97s;
-          animation-duration: 23.97s;
+  -webkit-animation-duration: 24.86s;
+          animation-duration: 24.86s;
 }
 
 .fish:nth-child(14) {
   position: absolute;
-  width: 1.4rem;
-  top: 62.12vh;
+  width: 1.05rem;
+  top: 64.31vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 28.88s;
-          animation-duration: 28.88s;
+  -webkit-animation-duration: 29.43s;
+          animation-duration: 29.43s;
 }
 
 .fish:nth-child(15) {
   position: absolute;
-  width: 4.85rem;
-  top: 72.52vh;
+  width: 3.5rem;
+  top: 72.78vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 25.62s;
-          animation-duration: 25.62s;
+  -webkit-animation-duration: 21.2s;
+          animation-duration: 21.2s;
 }
 
 .fish:nth-child(16) {
   position: absolute;
-  width: 1.75rem;
-  top: 57.22vh;
+  width: 3.9rem;
+  top: 18.5vh;
   -webkit-animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
           animation: cubic-bezier(0.6, 0.28, 0.735, 0.045) infinite;
   -webkit-animation-name: swim;
           animation-name: swim;
-  -webkit-animation-duration: 24.97s;
-          animation-duration: 24.97s;
+  -webkit-animation-duration: 27.66s;
+          animation-duration: 27.66s;
 }
 
 .fish-normal:nth-child(7) {
@@ -421,6 +421,15 @@ nav {
   background-color: #00bbf9;
   height: 80vh;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .portfolio {
@@ -818,5 +827,10 @@ footer {
   position: absolute;
   left: 70%;
   top: 40%;
+}
+
+.swimming-header {
+  color: white;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
