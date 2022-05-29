@@ -45,6 +45,10 @@
     border-radius: 3%;
     overflow: hidden;
 
+    @media only screen and (max-width: $bp-small) {
+        margin: 2rem 2rem;
+    }
+
     & > .website-image {
         height: 20rem;
         width: auto;
@@ -56,10 +60,9 @@
         object-position: 0% 100%;
     }
 
-    & > .paragraph {
-        font-size: 1.8rem;
+    & > .card-title {
+        font-size: 1.3rem;
         color: white;
-        font-size: 1.4rem;
         background-color: #5C5C5C;
         text-align: center;
 
@@ -143,11 +146,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 16rem;
-    text-align: center;
+    width: 25rem;
+    text-align: left;
     
     color: #424242;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 900;
 }
 
@@ -289,6 +292,44 @@
 
 //////////////////////////////////////////
 // Footer
+
+.footer-image {
+    width: 10rem;
+}
+
+.footer-about {
+    width: 33rem;
+    color: white;
+    font-size: 1.3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    list-style-type: square;
+
+    :link {
+        color: white;
+        text-decoration: none;
+    }
+    :visited {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.copyright {
+    width: 33rem;
+    color: white;
+    font-size: 1.3rem;
+}
 
 
 

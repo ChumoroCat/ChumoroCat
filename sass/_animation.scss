@@ -21,11 +21,17 @@
       transform: scale(1.0);
     }
 
-    100% {
+    35% {
       transform: scale(1.15);
       padding: .25rem;
       border-radius: 15%;
       border: 3px dashed hotpink;
+    }
+
+    100% {
+        border: .3px dashed hotpink;
+        border-radius: 15%;
+        transform: scale(1.0);
     }
 }
 
