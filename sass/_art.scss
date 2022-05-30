@@ -1,0 +1,27 @@
+//////////////////////////////////////////
+// Voxel Art
+
+.art-image {
+    width: 35rem;
+    height: 20rem;
+    background-color: yellow;
+
+}
+
+.art-card {
+    border: 1rem solid #C4117C;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.artstation-link {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+
+    border-radius: 20%;
+    margin-top: 2rem;
+    padding: .4rem 1.5rem;
+    text-shadow: .5px .5px #C4117C;
+}
