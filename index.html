@@ -16,6 +16,12 @@
         <link rel="stylesheet" href="css/main.css">
         
         <title>Chumoro Cat &mdash; Portfolio</title>
+
+        <script>
+            function resizeIframe(obj) {
+              obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            }
+        </script>
     </head>
     <body>
         <div class="wrapper">
@@ -84,16 +90,21 @@
             <section class="games">
                 <h1 class="heading heading-black">Unity Games Portfolio</h1>
                 <div class="game-container">
-                    <iframe src="" frameborder="0" class="finding-kitty hidden"></iframe>
-                    <article class="instructions hidden">Use the WASD keys to walk, mouse to turn around.</article>
-
-                    <div class="game-card">
+                    <div class="game-box">
+                        <iframe src="" scrolling="no" class="finding-kitty hidden"></iframe>
+                    </div>
+                    <div class="game-card hidden">
                         <img src="img/finding-kitty.jpg" alt="Finding Kitty" class="screenshot">
                         <h3 class="game-heading">Finding Kitty</h3>
                         <article class="introduction">Our Kittens ran away from home! Find them scattered around the city!</article>
                         <article class="instructions-shown">Use the WASD keys to walk, mouse to turn around.</article>
                     </div>
                 </div>
+                <button type="button" class="play-button">Play Game</button>
+                <button type="button" class="level-guide">Show Level Guide</button>
+                <img src="img/level-1.jpg" alt="Level 1 Guide" class="level-images hidden">
+                <img src="img/level-2.jpg" alt="Level 2 Guide" class="level-images hidden">
+                <img src="img/level-3.jpg" alt="Level 3 Guide" class="level-images hidden">
             </section>
             
             <section class="art">
@@ -143,6 +154,7 @@
                             <span class="pill blue">CSS</span>
                             <span class="pill blue">SASS</span>
                             <span class="pill yellow">Javascript</span>
+                            <span class="pill yellow">React JS</span>
                             <span class="pill green">SQL</span>
                             <span class="pill green">PHP</span>
                             <span class="pill green">C+</span>
@@ -188,14 +200,40 @@
         </div>
     </body>
     <script>
-        $(".swimming").mousemove(function(event) {
-            $(".lewis-image").css({
-                left: event.pageX - 110,
-                top: event.pageY - 110
+        $(document).ready(function() {
+
+            var playbtn = document.querySelector('.play-button');
+            var gamecard = document.querySelector('.game-card');
+            var game = document.querySelector('.finding-kitty');     
+            var guide = document.querySelectorAll('.level-images');  
+
+            // Move Lewis with pointer
+            $(".swimming").mousemove(function(event) {
+                $(".lewis-image").css({
+                    left: event.pageX - 110,
+                    top: event.pageY - 110
+                });
+            });
+
+            //Show the Unity Game
+            $(".play-button").click(function(event) {
+                gamecard.classList.remove("game-card");
+                gamecard.classList.add("hidden");
+                
+                game.src = "https://chumorocat.com/Finding_Kitty/index";
+                game.classList.remove("hidden");
+
+            });
+
+            //Show the Level Guide
+            $(".level-guide").click(function(event) {
+                   
+                for (let i = 0; i < guide.length; i++) {
+                    guide[i].classList.remove("hidden");
+                }
+                   
             });
         });
-
-        window.frames[0].stop()
     </script>
 
 </html>

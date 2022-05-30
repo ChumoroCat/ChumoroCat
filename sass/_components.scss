@@ -33,7 +33,7 @@
 
 .card {
     background-color: #5C5C5C;
-    width: 25rem;
+    width: 30rem;
     margin: 4rem 2rem;
 
     display: flex;
@@ -98,8 +98,14 @@
 //GAME
 
 .finding-kitty {
-    width: 100%;
-    height: 100%;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    box-sizing: border-box;
 }
 
 .hidden {
@@ -137,6 +143,38 @@
     
 }
 
+.play-button, .level-guide {
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+
+    border-radius: 20%;
+    padding: .4rem 1.5rem;
+    text-shadow: .5px .5px yellow;
+
+    :active {
+        background: #e5e5e5;
+        -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+           -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+                box-shadow: inset 0px 0px 5px #c1c1c1;
+         outline: none;
+    }
+}
+
+.level-guide {
+    margin-top: 1rem;
+
+}
+
+.level-images {
+
+    width: auto;
+    height: 50rem;
+    margin: 1.5rem 0rem;
+
+
+}
+
 
 //////////////////////////////////////////
 // Profile
@@ -150,7 +188,7 @@
     text-align: left;
     
     color: #424242;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 900;
 }
 
@@ -173,7 +211,7 @@
     background-color: #EDEDED;
     margin: 4rem 2rem;
     
-    width: 25rem;
+    width: 30rem;
     height: 20rem;
 
     display: flex;
@@ -183,12 +221,12 @@
 
     border: 1rem solid #5C5C5C;
     border-radius: 3%;
-    padding: 1.5rem 0.3rem;
+    padding: 1.8rem 0.5rem;
     overflow: hidden;
 
 
     &-heading {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         margin-bottom: 1.8rem;
         text-align: center;
         text-transform: uppercase;
@@ -211,7 +249,7 @@
     padding: .75rem .6rem;
     margin: .3rem;
     line-height: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: white;
 }
 

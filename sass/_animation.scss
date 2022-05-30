@@ -16,20 +16,19 @@
 
 @keyframes expand {
     0% {
-      border: .3px dashed hotpink;
-      border-radius: 15%;
-      transform: scale(1.0);
+        border: .01px dashed hotpink;
+        border-radius: 15%;
     }
 
     35% {
-      transform: scale(1.15);
-      padding: .25rem;
-      border-radius: 15%;
-      border: 3px dashed hotpink;
+        transform: scale(1.15);
+        padding: .25rem;
+        border-radius: 15%;
+        border: 3px dashed hotpink;
     }
 
     100% {
-        border: .3px dashed hotpink;
+        border: .01px dashed hotpink;
         border-radius: 15%;
         transform: scale(1.0);
     }
