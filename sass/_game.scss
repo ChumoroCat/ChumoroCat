@@ -73,8 +73,15 @@
 .level-images {
 
     width: auto;
+    max-width: 90vh;
     height: 50rem;
     margin: 1.5rem 0rem;
 
+    @media only screen and (max-width: $bp-medium) {
+        height: 35rem;
+    }
 
+    @media only screen and (max-width: $bp-small) {
+        height: 30rem;
+    }
 }

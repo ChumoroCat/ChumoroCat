@@ -116,13 +116,18 @@ nav {
 
 footer {
     background-color: #5C5C5C;
-    height: 35vh;
     width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
 }
 
 
