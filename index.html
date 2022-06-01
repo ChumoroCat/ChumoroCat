@@ -94,6 +94,7 @@
                         <article class="instructions-shown">Use the WASD keys to walk, mouse to turn around.</article>
                     </div>
                 </div>
+                <p class="unity-error hidden">Unity is not supported on Mobile and Tablet. <br> Please revisit this website on the Desktop.</p>
                 <button type="button" class="play-button">Play Game</button>
                 <button type="button" class="level-guide">Show Level Guide</button>
                 <img src="img/level-1.jpg" alt="Level 1 Guide" class="level-images hidden">
@@ -200,6 +201,7 @@
             var gamecard = document.querySelector('.game-card');
             var game = document.querySelector('.finding-kitty');     
             var guide = document.querySelectorAll('.level-images');  
+            var errormsg = document.querySelector('.unity-error'); 
 
             // Move Lewis with pointer
             $(".swimming").mousemove(function(event) {
@@ -227,6 +229,18 @@
                 }
                    
             });
+
+            if (navigator.userAgent.match(/Android/i) ||
+                navigator.userAgent.match(/webOS/i) ||
+                navigator.userAgent.match(/iPhone/i) ||
+                navigator.userAgent.match(/iPad/i) ||
+                navigator.userAgent.match(/iPod/i) ||
+                navigator.userAgent.match(/BlackBerry/i) ||
+                navigator.userAgent.match(/Windows Phone/i)
+                ) {
+                    // alert("mobile/tablet spotted!");
+                    errormsg.classList.remove("hidden");
+                } 
         });
     </script>
 
